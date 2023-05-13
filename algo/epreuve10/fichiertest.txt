@@ -1,0 +1,17 @@
+Cube 0
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 12
+Redirection: l'Ã©nergie de la boule est divisible par 31
+	si vrai: la boule va vers le cube 1
+	si faux: la boule va vers le cube 2
+
+Cube 1
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne + 8
+Redirection: l'Ã©nergie de la boule est divisible par 17
+	si vrai: la boule va vers le cube 2
+	si faux: la boule va vers le cube 0
+
+Cube 2
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 60
+Redirection: l'Ã©nergie de la boule est divisible par 19
+	si vrai: la boule va vers le cube 0
+	si faux: la boule va vers le cube 1

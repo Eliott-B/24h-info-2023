@@ -1,0 +1,59 @@
+Cube 0
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 13
+Redirection: l'Ã©nergie de la boule est divisible par 2
+	si vrai: la boule va vers le cube 2
+	si faux: la boule va vers le cube 5
+
+Cube 1
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 4
+Redirection: l'Ã©nergie de la boule est divisible par 13
+	si vrai: la boule va vers le cube 4
+	si faux: la boule va vers le cube 2
+
+Cube 2
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne + 2
+Redirection: l'Ã©nergie de la boule est divisible par 5
+	si vrai: la boule va vers le cube 3
+	si faux: la boule va vers le cube 8
+
+Cube 3
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 2
+Redirection: l'Ã©nergie de la boule est divisible par 3
+	si vrai: la boule va vers le cube 7
+	si faux: la boule va vers le cube 4
+
+Cube 4
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne + 7
+Redirection: l'Ã©nergie de la boule est divisible par 11
+	si vrai: la boule va vers le cube 2
+	si faux: la boule va vers le cube 6
+
+Cube 5
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 21
+Redirection: l'Ã©nergie de la boule est divisible par 19
+	si vrai: la boule va vers le cube 6
+	si faux: la boule va vers le cube 4
+
+Cube 6
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 3
+Redirection: l'Ã©nergie de la boule est divisible par 23
+	si vrai: la boule va vers le cube 8
+	si faux: la boule va vers le cube 1
+
+Cube 7
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne + 15
+Redirection: l'Ã©nergie de la boule est divisible par 17
+	si vrai: la boule va vers le cube 9
+	si faux: la boule va vers le cube 6
+
+Cube 8
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne + 1
+Redirection: l'Ã©nergie de la boule est divisible par 7
+	si vrai: la boule va vers le cube 0
+	si faux: la boule va vers le cube 3
+
+Cube 9
+Modification d'Ã©nergie de la boule de plasma: nouvelle = ancienne * 5
+Redirection: l'Ã©nergie de la boule est divisible par 29
+	si vrai: la boule va vers le cube 0
+	si faux: la boule va vers le cube 1

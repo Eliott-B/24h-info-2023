@@ -1,0 +1,40 @@
+- Zinzolin et Smaragdin jouent un jeu de mémoire impliquant des séquences de nombres aléatoires entre 1 et 10 (1 et 10 inclus), qui sont tirés un par un (à chaque tour on tire un nouveau numéro).
+
+
+- Chaque joueur peut mémoriser jusqu'à 5 numéros différents simultanément (initialement la mémoire de chaque joueur est vide).
+
+
+- Lorsque le numéro tiré est dans la mémoire du joueur, celui-ci marque 1 point.
+
+- Si le numéro tiré n'est pas dans la mémoire du joueur, le joueur ajo
+
+ute le numéro tiré à sa mémoire de la façon suivante:
+
+    - Si la mémoire n'est pas complètement remplie, les joueurs ont la même stratégie : ils ajoutent le nouveau numéro à leur mémoire,
+
+
+    - Si la mémoire est remplie, un numéro de la mémoire sera supprimé pour intégrer le nouveau numéro. Dans ce cas, Zinzolin et Smaragdin utilisent des stratégies différentes.
+________Problème___________
+
+
+Quels sont les scores de Zinzolin (noté Z) et Smaragdin (noté S) si la suite de numéros tirés est celle donnée dans le fichier ci-dessous ? Le code sera alors donné par
+
+code = (Z + 2) × (S + 3)
+
+
+PS: Pour ce problème haut en couleurs, Algonos a dû vous laisser des indices dans la salle sur les stratégies suivies par les deux protagonistes.
+
+Test: Pour vous aider, Algonos vous propose le fichier de test ci-dessous pour lequel le code serait 30.
+
+
+
+
+
+
+------------
+______________Strategie__________
+- supprimer n° pas tiré depuis longtemps (S)
+- supprimer n° médian de la MEMOIRE (S)
+- supprimer n° dans mémoire depuis le moins longtemps (Z)
+- supprimer n° le + grand (Z) *
+- supprimer n° le + petit (Z)
